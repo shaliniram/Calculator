@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: black;
+    
+    position: absolute;
+    top: 30%;
+    border-radius: 5px;
+    padding: 10px;;
+}
+
+
+.display_value{
+    color:white;
+    text-align: end;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.grid_container{
+    padding:10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+}
+
+.grid_item{
+    background: none;
+    
+    color: white;
+    
+}
+
+button{
+    border-radius: 70%;
+    padding: 10px;
+    background: #333333;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 70%;
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    border:none;
+}
+
+
+
+.operator {
+    background: #ff9501;
+  }
+  
+  .number {
+    background: #a6a6a6;
+    color: #000000;
+  }
+  
+  .number:hover {
+    background: #bfbcbc;
+  }
+  
+  
+
+  .operator:focus,
+  .operator:hover {
+    background: #ecaa4e;  }
+  
+  .clear{
+    background: #ff9501;
+    grid-column: 1 / 3;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .del{
+    background: #ff9501;
+    grid-column: 3 / 5;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+
+  .clear:hover,
+  .del:hover {
+    background: #ecaa4e;  }
