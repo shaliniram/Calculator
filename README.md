@@ -10,6 +10,6 @@ This is a simple web-based calculator application implemented using HTML, CSS, a
 ## Preview
 
 
-You can view a live demo of the calculator [here](https://your-calculator-url.com).
+You can view a live demo of the calculator [here]([https://your-calculator-url.com](https://shaliniram.github.io/Calculator/).
 
 
